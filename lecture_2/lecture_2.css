@@ -1,0 +1,48 @@
+h1{
+    color: green;
+}
+h4{
+    background-color: brown;
+}
+p{
+    background-color: black;
+    color: yellow;
+}
+p{
+    color: red;
+    background-color: aqua;
+}
+
+/* id selector */
+#arpitbusa{
+    color: red;
+}
+#avinash rakholiya{
+    color: blue;
+}
+
+/* class selector */
+.vraj{
+    color: yellow;
+    background-color: black;
+}
+.parth{
+    color: pink;
+    background-color: brown;
+    border: 5px solid red;
+}
+
+ /* grouping selector */
+.box{
+    background-color: darkblue;
+}
+p{
+    background-color: darkblue;
+}
+h5{
+    background-color: darkblue;
+}
+
+.box,p,h5{
+    background-color: green;
+}
