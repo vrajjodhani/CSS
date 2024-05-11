@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    border: 3px solid red;
+    background-color: black;
+    display: flex;
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    /* flex-wrap:nowrap;
+    flex-wrap:wrap;
+    flex-wrap:wrap-reverse; */
+
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    
+
+    /* align-items: start;
+    align-items: center;
+    align-items: end; */
+    
+    
+    /* aling-self is child property 
+        align-self:start;
+        align-self:center;
+        align-self:end;
+    */
+
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    color: black;
+}
+#box1{
+    background-color: rgb(0, 255, 234);
+    /* align-self: end; */
+}
+#box2{
+    background-color: orange;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: blue;
+    /* align-self: center; */
+}
+#box5{
+    background-color: yellow;
+}
+#box6{
+    background-color: rgb(59, 253, 0);
+    /* align-self: end; */
+}
