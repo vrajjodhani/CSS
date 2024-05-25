@@ -1,0 +1,5 @@
+.masking img{
+    height: 500px;
+    width: 500px;
+    mask-image: url(img/100-1009237_download-now-this-free-icon-in-svg-psd-png-eps-format-butterfly.png);
+}

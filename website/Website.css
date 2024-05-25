@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav_container{
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    align-items: center;
+}
+.nav_items{
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 1.5rem;
+    gap: 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.page{
+    width: 100vw;
+    background-color: #007bff;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 120px 0px 0px 0px;
+
+}
+.box1{
+    display: flex;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+   
+}
+.h1{
+    font-size: 62px;
+}
+.button input{
+    margin: 0px 0px 48px;
+    padding: 12px 36px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section{
+    width: 1366px;
+    height: 235.17px;
+    background-color: #002450;
+    display: flex;
+    color: #ffffff;
+    grid-template-columns: auto auto auto;
+    
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+}
+#icone{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.container1{
+    display: flex;
+    display: grid;
+    /* padding: 30px 15px 50px;  */
+    margin-left: 125px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-weight: 500;
+    /* margin: 6px 0 14px 0; */
+    /* border: 1px solid red; */
+    margin-top: 30px;
+   
+}
+.container2{
+    display: flex;
+    display: grid;
+    /* padding: 30px 15px 50px; */
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    /* display: inline-block;
+    overflow-wrap: break-word; */
+    font-weight: 500;
+    /* margin: 6px 0 14px 0; */
+    /* border: 1px solid red; */
+    /* gap:10px; */
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 10px;
+}
+.container3{
+    display: flex;
+    display: grid;
+    /* padding: 30px 15px 50px; */
+    /* margin-right: 100px; */
+    font-size: 18px;
+    /* font-weight: 300; */
+    line-height: 1.4;
+    font-weight: 500;
+    /* margin: 6px 0 14px 0; */
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    margin-left: 250px;
+}
+#count:hover{
+    background-color: #02d9ff;
+
+}
+
+.banner_3 {
+    background-color: #fff;
+    color: black;
+}
+
+.container3 {
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    padding: 90px;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.Hosting-img {
+    position: relative;
+    width: 345px;
+    height: 264px;
+    border: 15px solid rgb(220, 217, 217);
+    box-shadow: 35px 40px 3px #00bbff;
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+}
+
+#video {
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+
+.Questions-text {
+    color: #002450;
+    float: right;
+    height: 450px;
+    width: 450px;
+}
+
+.Questions-text h5 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Roboto, sans-serif";
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.Questions-text h1 {
+    padding-top: 10px;
+    font-size: 36px;
+    font-family: "Montserrat, sans-serif";
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.Questions-text p {
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: "Roboto, sans-serif";
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.learn-button {
+    margin-top: 31px;
+    margin-left: 21px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    color: #00b6ff;
+    background-color: #fff;
+    border: 1px solid #00b6ff;
+    border-radius: 55px;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    box-shadow: none;
+}
+
+.learn-button:hover{
+    background-color: #00bbff;
+    color:#ffffff ;
+}
+
+

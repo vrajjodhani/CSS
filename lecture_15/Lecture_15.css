@@ -1,0 +1,62 @@
+.path{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.translate{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+.path:hover .translate{
+    /* transform: translate(400px ,500px);
+    transform: translate(400px);
+    transform: translatey(400px);
+    transform: rotated(180deg);
+    transform: scale(3);
+    transform: scaley(2);
+    transform: skew(90deg , 45deg);
+    transform: skew(45deg);
+    transform:  5s; */
+}
+
+/* .img{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+} */
+/* 
+.img:hover{
+    transform: scale(0.8);
+    transition: 2s;
+} */
+
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.path:hover .transition{
+    width: 500px;
+    height: 500px;
+    transform: translate(900px);
+    transition-delay: 5s;
+    transition-duration: 5s;
+    tra
+}
+
+
+
+
+.path:hover .transition{
+    width: 500px;
+    height: 500px;
+    transform:  translate(900px);
+    /* transition-delay:5s; */
+    transition-duration: 5s;
+    transition-property: width height transform;
+    transition-timing-function: easy-in-out;
+
+}

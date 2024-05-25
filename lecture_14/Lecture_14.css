@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clip{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    border: 2px dotted black;
+    margin: 50px auto;
+    padding: 30px;
+    overflow: hidden;
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;
+}
+.listing{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: aqua;
+    margin: 50px auto;
+    /* list-style-type: square; */
+    /* list-style-image: url(image/pngtree-right-arrow-glyph-black-icon-png-image_691169 .png); */
+    /* list-style-position: outside; */
+    list-style-position: inside;
+}
