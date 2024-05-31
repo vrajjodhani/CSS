@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link{
+    color: aqua !important;
+}
+
+a:hover{
+    background-color: red;
+    color: blue;
+}
+
+a:visited{
+    color: lightblue;
+    background-color: brown;
+}
+
+a:active{
+    color: black;
+    background-color: aqua;
+}
+
+:root{
+    /* color: red; */
+}
+
+p:first-child{
+    /* color: red;
+    background-color: lightskyblue; */
+}
+
+p:first-child{
+    /* color: red;
+    background-color: lightskyblue; */
+}
+
+p:first-child(2n){
+    /* color: blue;
+    background-color: bisque; */
+}
+
+p:first-child(2n + 1){
+    /* color: blue;
+    background-color: bisque; */
+}
+
+p:first-child(odd){
+    /* color: blue;
+    background-color: bisque;*/
+} 
+
+p:first-child(even){
+    /* color: blue;
+    background-color: bisque;*/
+} 
+
+
+/* pseudo elements */
+
+/* apply when i select any portion */
+::selection{
+    color: black;
+    background-color: antiquewhite;
+}
+
+p::first-line{
+    color: red;
+    font-size: 20px;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 20px;
+}
+
+h1::before{
+    content: "*";
+}
+
+h1::after{
+    content: " good morning";
+}
+
+/* appply on list narker */
+li::marker{
+    color: red;
+    /* background-color: aqua;  */
+    font-size: 25px;
+}
+
+
+.container{
+    border: 5px dotted black;
+}
+
+.main1 img{
+    /* float:rigt */
+    float: left;
+}
+
+.miain2{
+    color: red;
+}
+
+.main3{
+    color: blue;
+    /* clear: left; */
+    /* clear: right; */
+    clear: both;
+}
+
+
+
+

@@ -10,6 +10,8 @@
     justify-content: space-around;
     padding: 10px 0px;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 .nav_items{
     display: flex;
@@ -23,7 +25,7 @@ a{
     color: black;
     text-decoration: none;
 }
-.page{
+.banner_1{
     width: 100vw;
     background-color: #007bff;
     display: flex;
@@ -59,71 +61,59 @@ a{
     text-align: center;
 }
 .section{
-    width: 1366px;
+    width: 100vw;
     height: 235.17px;
     background-color: #002450;
     display: flex;
     color: #ffffff;
-    grid-template-columns: auto auto auto;
-    
-    /* padding-left: 10px;
-    padding-right: 10px; */
     
 }
-#icone{
+/* ...................................... */
+.banner_2 {
+    background-color: #002450;
+}
+
+.container_1 {
+    height: 70%;
+    max-width: 1100px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.web-hosting {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: background-color 0.3s ease;
+}
+
+.web-hosting:hover {
+    background-color: #00bbff;
+}
+
+.web-text {
+    width: 300px;
+    height: 60px;
+}
+
+#icon{
+    color: #fff;
     font-size: 50px;
-    color: #ffffff;
+    transition: color 0.3s ease; 
+    
 }
 
-.container1{
-    display: flex;
-    display: grid;
-    /* padding: 30px 15px 50px;  */
-    margin-left: 125px;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.4;
-    font-weight: 500;
-    /* margin: 6px 0 14px 0; */
-    /* border: 1px solid red; */
-    margin-top: 30px;
-   
+#iconCode:hover {
+    color: #fff; 
 }
-.container2{
-    display: flex;
-    display: grid;
-    /* padding: 30px 15px 50px; */
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.4;
-    /* display: inline-block;
-    overflow-wrap: break-word; */
-    font-weight: 500;
-    /* margin: 6px 0 14px 0; */
-    /* border: 1px solid red; */
-    /* gap:10px; */
-    margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 10px;
-}
-.container3{
-    display: flex;
-    display: grid;
-    /* padding: 30px 15px 50px; */
-    /* margin-right: 100px; */
-    font-size: 18px;
-    /* font-weight: 300; */
-    line-height: 1.4;
-    font-weight: 500;
-    /* margin: 6px 0 14px 0; */
-    /* border: 1px solid red; */
-    margin-top: 30px;
-    margin-left: 250px;
-}
-#count:hover{
-    background-color: #02d9ff;
 
-}
+/* ....................................... */
 
 .banner_3 {
     background-color: #fff;
@@ -131,15 +121,13 @@ a{
 }
 
 .container3 {
-    height: 100%;
-    max-width: 1100px;
+    height: 100vw;
     margin: auto;
     display: flex;
     color: black;
     justify-content: space-between;
     padding: 90px;
     height: 100%;
-    max-width: 1100px;
     margin: auto;
 }
 
@@ -148,7 +136,7 @@ a{
     width: 345px;
     height: 264px;
     border: 15px solid rgb(220, 217, 217);
-    box-shadow: 35px 40px 3px #00bbff;
+    box-shadow: 40px 40px 2px #00bbff;
     display: flex;
     justify-content: space-evenly;
     float: left;
@@ -167,8 +155,8 @@ a{
 .Questions-text {
     color: #002450;
     float: right;
-    height: 450px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
 }
 
 .Questions-text h5 {
@@ -189,23 +177,22 @@ a{
 
 .Questions-text p {
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Roboto, sans-serif";
     text-align: left;
     letter-spacing: 0.5px;
 }
 
 .learn-button {
-    margin-top: 31px;
-    margin-left: 21px;
+    margin-top: 32px;
+    margin-left: 20px;
     text-align: left;
-    letter-spacing: 0.5px;
-    font-size: 17px;
+    font-size: 16px;
     color: #00b6ff;
     background-color: #fff;
-    border: 1px solid #00b6ff;
-    border-radius: 55px;
-    height: 35px;
+    border: 2px solid #00b6ff;
+    border-radius: 50px;
+    height: 30px;
     width: 150px;
     text-align: center;
     box-shadow: none;
@@ -216,4 +203,167 @@ a{
     color:#ffffff ;
 }
 
+/* ................................. */
 
+
+.banner_4 {
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle1 {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #00c8ff;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.circle2 {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #00c8ff;
+    border-right: 16px solid #00c8ff;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.circle3 {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #00c8ff;
+    border-right: 16px solid #00c8ff;
+    border-bottom: 16px solid #00c8ff;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.number {
+    font-family: "Roboto, sans-serif";
+    font-size: 30px;
+    text-align: center;
+    color: #002450;
+    position: absolute;
+}
+
+.heading {
+    font-family: "Roboto, sans-serif";
+    font-size: 24px;
+    text-align: center;
+    color: #002450;
+}
+
+.paragraph {
+    padding-top: 15px;
+    font-family: "Roboto, sans-serif";
+    font-size: 16px;
+    text-align: center;
+    color: #002450;
+}
+
+/* ............................................ */
+
+.banner_5 {
+    background-image: url(image/asset\ 15.jpeg);
+    background-size: cover;
+}
+
+.container5 {
+    color: #fff;
+    height: 333px;
+    max-width: 1100px;
+    /* margin-top: 100px; */
+    background-repeat: no-repeat;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border: 2px solid #00b6ff;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: #00b6ff;
+}
+
+.button:hover{
+    background-color: #00bbff;
+    color:#ffffff ;
+}
+/* ................................... */
+
+.container15 {
+    padding-top: 200px;
+    background-color: #fff;
+    color: #2d2d2d;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.top-text {
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Montserrat, sans-serif";
+    font-size: 36px;
+    letter-spacing: 0.5px;
+}
+
+.bottom-text {
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Montserrat, sans-serif";
+    font-size: 36px;
+    letter-spacing: 0.5px;
+}
+
+.hosting_packages p {
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Roboto, sans-serif";
+    margin-top: 25px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500px;
+}
